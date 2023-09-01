@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { KEY } from './constants'
+import { KEY } from '../constants'
 
 export function useMovies(query, callback) {
   const [movies, setMovies] = useState([])
